@@ -1,0 +1,161 @@
+2024-03-04 16:28:46.976 +04:00 Now listening on: https://localhost:7243
+2024-03-04 16:28:47.065 +04:00 Now listening on: http://localhost:5199
+2024-03-04 16:28:47.075 +04:00 Application started. Press Ctrl+C to shut down.
+2024-03-04 16:28:47.077 +04:00 Hosting environment: Development
+2024-03-04 16:28:47.078 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-03-04 16:30:11.158 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:30:11
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:30:30.939 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:30:30
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:30:55.578 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = ?id=D2DA121F-EA1E-4A27-A750-5D6160F26E16
+Time = 04.03.2024 16:30:55
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:05.320 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = ?id=D2DA121F-EA1E-4A27-A750-5D6160F26E16
+Time = 04.03.2024 16:31:05
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:18.098 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:18
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.WebTools.BrowserLink.Net.ScriptInjectionFilterStream
+
+2024-03-04 16:31:19.276 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:19
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:29.969 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:29
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:35.784 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:35
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:37.218 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:37
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:39.768 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:39
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:40.911 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:40
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-04 16:31:41.880 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 04.03.2024 16:31:41
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+

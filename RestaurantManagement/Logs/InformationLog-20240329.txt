@@ -1,0 +1,261 @@
+2024-03-29 14:42:19.646 +04:00 Initializing UI Database
+2024-03-29 14:42:21.991 +04:00 Saving healthchecks configuration to database
+2024-03-29 14:42:22.686 +04:00 Now listening on: https://localhost:7243
+2024-03-29 14:42:22.693 +04:00 Now listening on: http://localhost:5199
+2024-03-29 14:42:23.317 +04:00 Start processing HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:23.340 +04:00 Sending HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:23.470 +04:00 Application started. Press Ctrl+C to shut down.
+2024-03-29 14:42:23.484 +04:00 Hosting environment: Development
+2024-03-29 14:42:23.486 +04:00 Content root path: C:\Users\user\Desktop\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-03-29 14:42:24.128 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:24
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:24.198 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:24.202 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:24.252 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:24
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:27.183 +04:00 Received HTTP response headers after 2968.6269ms - 200
+2024-03-29 14:42:27.192 +04:00 End processing HTTP request after 3000.7916ms - 200
+2024-03-29 14:42:27.703 +04:00 An unhandled exception occurred
+2024-03-29 14:42:27.820 +04:00 Received HTTP response headers after 4477.1874ms - 500
+2024-03-29 14:42:27.821 +04:00 End processing HTTP request after 4526.0578ms - 500
+2024-03-29 14:42:27.949 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-29 14:42:38.592 +04:00 Start processing HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:38.594 +04:00 Sending HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:38.597 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:38
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:38.602 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:38.604 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:38.609 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:38
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:38.622 +04:00 Received HTTP response headers after 16.0263ms - 200
+2024-03-29 14:42:38.624 +04:00 End processing HTTP request after 22.507ms - 200
+2024-03-29 14:42:38.810 +04:00 An unhandled exception occurred
+2024-03-29 14:42:38.820 +04:00 Received HTTP response headers after 224.3998ms - 500
+2024-03-29 14:42:38.822 +04:00 End processing HTTP request after 230.062ms - 500
+2024-03-29 14:42:38.825 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-29 14:42:38.840 +04:00 Notification is sent on same window time.
+2024-03-29 14:42:42.065 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:42
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.WebTools.BrowserLink.Net.ScriptInjectionFilterStream
+
+2024-03-29 14:42:44.122 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:44
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.WebTools.BrowserLink.Net.ScriptInjectionFilterStream
+
+2024-03-29 14:42:48.889 +04:00 Start processing HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:48.891 +04:00 Sending HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:48.895 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:48
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:48.897 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:48.900 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:48.904 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:48
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:49.016 +04:00 Received HTTP response headers after 113.6036ms - 200
+2024-03-29 14:42:49.019 +04:00 End processing HTTP request after 121.5547ms - 200
+2024-03-29 14:42:49.195 +04:00 An unhandled exception occurred
+2024-03-29 14:42:49.203 +04:00 Received HTTP response headers after 310.5908ms - 500
+2024-03-29 14:42:49.205 +04:00 End processing HTTP request after 316.3443ms - 500
+2024-03-29 14:42:49.208 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-29 14:42:49.254 +04:00 Notification is sent on same window time.
+2024-03-29 14:42:59.266 +04:00 Start processing HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:59.268 +04:00 Sending HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:42:59.272 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:59
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:59.274 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:59.281 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:42:59.287 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:42:59
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:42:59.292 +04:00 Received HTTP response headers after 6.5791ms - 200
+2024-03-29 14:42:59.294 +04:00 End processing HTTP request after 20.5412ms - 200
+2024-03-29 14:42:59.567 +04:00 An unhandled exception occurred
+2024-03-29 14:42:59.579 +04:00 Received HTTP response headers after 308.7259ms - 500
+2024-03-29 14:42:59.581 +04:00 End processing HTTP request after 315.0692ms - 500
+2024-03-29 14:42:59.585 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-29 14:42:59.592 +04:00 Notification is sent on same window time.
+2024-03-29 14:43:09.613 +04:00 Start processing HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:43:09.616 +04:00 Sending HTTP request GET "https://localhost:7243/api/health"
+2024-03-29 14:43:09.620 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:43:09
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:43:09.623 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:43:09.628 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:43:09.632 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:43:09
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:43:09.638 +04:00 Received HTTP response headers after 8.0652ms - 200
+2024-03-29 14:43:09.641 +04:00 End processing HTTP request after 18.3437ms - 200
+2024-03-29 14:43:09.827 +04:00 An unhandled exception occurred
+2024-03-29 14:43:09.836 +04:00 Received HTTP response headers after 217.6223ms - 500
+2024-03-29 14:43:09.838 +04:00 End processing HTTP request after 224.6959ms - 500
+2024-03-29 14:43:09.841 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-29 14:43:09.847 +04:00 Notification is sent on same window time.
+2024-03-29 14:43:10.809 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:43:10
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.WebTools.BrowserLink.Net.ScriptInjectionFilterStream
+
+2024-03-29 14:43:10.813 +04:00 Start processing HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:43:10.817 +04:00 Sending HTTP request GET "https://localhost:7243/api/Address"
+2024-03-29 14:43:10.822 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:43:10
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-03-29 14:43:10.827 +04:00 Received HTTP response headers after 7.7512ms - 200
+2024-03-29 14:43:10.829 +04:00 End processing HTTP request after 16.6394ms - 200
+2024-03-29 14:43:11.047 +04:00 An unhandled exception occurred
+2024-03-29 14:43:12.287 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 29.03.2024 14:43:12
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+

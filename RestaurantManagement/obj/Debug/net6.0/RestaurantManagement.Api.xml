@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestaurantManagement.Api</name>
+    </assembly>
+    <members>
+        <member name="T:RestaurantManagement.Api.Controllers.AddressController">
+            <summary>
+            Controller for managing addresses.
+            </summary>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.#ctor(RestaurantManagement.Application.Interfaces.IAddress.IAddressRepository,RestaurantManagement.Application.Interfaces.IUser.IUserRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestaurantManagement.Api.Controllers.AddressController"/> class.
+            </summary>
+            <param name="addressRepository">The address repository.</param>
+            <param name="userRepository"></param>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.GetAllAddresses(System.Threading.CancellationToken)">
+            <summary>
+            Gets all addresses.
+            </summary>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>List of address DTOs.</returns>
+             <response code="200">returns all the addresses</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.GetAddressById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets an address by its ID.
+            </summary>
+            <param name="id">The ID of the address.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>Address DTO.</returns>
+            <response code="200">returns the address by id</response>
+            <response code="404">if address not exists</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.CreateAddress(RestaurantManagement.Application.RequestModel.AddressRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new address.
+            </summary>
+            <param name="id">The ID of the user associated with the address.</param>
+            <param name="addressRequest">The address DTO to be created.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>Result of the address creation operation.</returns>
+            <response code="200">create new address</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.UpdateAddress(System.String,RestaurantManagement.Api.Model.Dto.AddressDto,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing address.
+            </summary>
+            <param name="id">The ID of the address to be updated.</param>
+            <param name="address">The updated address data.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>Result of the address update operation.</returns>
+            <response code="200">update the address</response>
+            <response code="404">if address not exists</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.AddressController.DeleteAddress(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes an address by its ID.
+            </summary>
+            <param name="id">The ID of the address to be deleted.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>Result of the address deletion operation.</returns>
+        </member>
+        <member name="T:RestaurantManagement.Api.Controllers.ImageController">
+            <summary>
+            Controller for managing images.
+            </summary>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.#ctor(RestaurantManagement.Application.Interfaces.IImage.IImageRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestaurantManagement.Api.Controllers.ImageController"/> class.
+            </summary>
+            <param name="imageRepository">The image repository to be injected.</param>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.UploadImage(System.String,System.String)">
+            <summary>
+            Creates a new image.
+            </summary>
+            <returns>Created image</returns>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Gets all images.
+            </summary>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>List of images</returns>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.GetById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets an image by ID.
+            </summary>
+            <param name="imageId">Image ID</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>Image details</returns>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.Update(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing image.
+            </summary>
+            <param name="oldImageId">old Image ID</param>
+            <param name="name">Updated image details</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>Updated image</returns>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.ImageController.Delete(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes an image by path.
+            </summary>
+            <param name="path">Image path</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:RestaurantManagement.Api.Controllers.OrderController">
+            <summary>
+            Controller for managing orders.
+            </summary>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.#ctor(RestaurantManagement.Application.Interfaces.IOrder.IOrderRepository,RestaurantManagement.Application.Interfaces.IUser.IUserRepository,RestaurantManagement.Application.Interfaces.IPizza.IPizzaRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestaurantManagement.Api.Controllers.OrderController"/> class.
+            </summary>
+            <param name="orderRepository">The order repository.</param>
+            <param name="userRepository"></param>
+            <param name="pizzaRepository"></param>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.GetAllOrders(System.Threading.CancellationToken)">
+            <summary>
+            Gets all orders.
+            </summary>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A list of orders.</returns>
+             <response code="200">Returns all the orders</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.GetOrderById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a specific order by ID.
+            </summary>
+            <param name="id">The order ID.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The specified order.</returns>
+             <response code="200">Returns the order by id</response>
+            <response code="404">If the order is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.CreateOrder(RestaurantManagement.Application.RequestModel.OrderRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="orderRequest">The order request containing pizza details.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">create new order</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.DeleteOrder(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a specific order by ID.
+            </summary>
+            <param name="id">The order ID to delete.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">delete order by id</response>
+            <response code="404">If the order is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.OrderController.GetPizzas(System.Threading.CancellationToken,System.String)">
+            <summary>
+            Gets the pizzas associated with a specific order.
+            </summary>
+            <param name="cancellationToken">The cancellation token.</param>
+            <param name="orderId">The ID of the order to retrieve pizzas.</param>
+            <returns>The list of pizzas associated with the order.</returns>
+             <response code="200">Returns the pizza by id</response>
+            <response code="404">If the pizza is not valid</response>
+             <response code="200">return pizzas by orderid</response>
+            <response code="404">If the order is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.#ctor(RestaurantManagement.Application.Interfaces.IUser.IUserRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestaurantManagement.Api.Controllers.UserController"/>
+            </summary>
+            <param name="userRepository">The user repository.</param>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.GetAllUsers(System.Threading.CancellationToken)">
+            <summary>
+            Get all users.
+            </summary>
+            <response code="200">Returns All the users</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.GetUserById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get a user by ID.
+            </summary>
+            <response code="200">Returns the user by id</response>
+            <response code="404">If the user is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.UpdateUser(System.String,RestaurantManagement.Api.Model.Dto.UserDto,System.Threading.CancellationToken)">
+            <summary>
+            Update a user by ID.
+            </summary>
+            <response code="200">Returns the newly updated user</response>
+            <response code="404">If the user is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.DeleteUser(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Delete a user by ID.
+            </summary>
+            <response code="200">Returns the newly updatdeleteded user</response>
+            <response code="404">If the user is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.GetUserAddresses(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get addresses associated with a user by ID.
+            </summary>
+            <response code="200">Returns the user's addresses</response>
+            <response code="404">If the user is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Api.Controllers.UserController.AddUser(RestaurantManagement.Api.Model.Dto.UserDto)">
+            <summary>
+            Add a new user.
+            </summary>
+            <response code="200">Returns the newly added user</response>
+        </member>
+        <member name="T:RestaurantManagement.Api.Infrastructure.Localizations.Language">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.Conflict">
+            <summary>
+              Looks up a localized string similar to უკვე არსებობს.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.Create">
+            <summary>
+              Looks up a localized string similar to წარმატებით შეიქმნა.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.Delete">
+            <summary>
+              Looks up a localized string similar to წარმატებით წაიშალა.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.NotFound">
+            <summary>
+              Looks up a localized string similar to ვერ მოიძებნა.
+            </summary>
+        </member>
+        <member name="P:RestaurantManagement.Api.Infrastructure.Localizations.Language.Update">
+            <summary>
+              Looks up a localized string similar to წარმატებით განახლდა.
+            </summary>
+        </member>
+        <member name="T:RestaurantManagement.Controllers.PizzaController">
+            <summary>
+            Controller for managing pizzas.
+            </summary>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.#ctor(RestaurantManagement.Application.Interfaces.IPizza.IPizzaRepository,RestaurantManagement.Application.Interfaces.IUser.IUserRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestaurantManagement.Controllers.PizzaController"/> class.
+            </summary>
+            <param name="pizzaRepository">The pizza repository.</param>
+            <param name="userRepository"></param>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.GetAllPizzas(System.Threading.CancellationToken)">
+            <summary>
+            Gets all pizzas.
+            </summary>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A list of pizzas.</returns>
+            <response code="200">Returns all the pizzas</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.GetPizzaById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a specific pizza by ID.
+            </summary>
+            <param name="id">The pizza ID.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The specified pizza.</returns>
+            <response code="200">Returns the pizza by id</response>
+            <response code="404">If the pizza is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.CreatePizza(RestaurantManagement.Api.Model.Dto.PizzaDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new pizza.
+            </summary>
+            <param name="pizza">The pizza details.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">Returns newly created pizza</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.UpdatePizza(System.String,RestaurantManagement.Application.RequestModel.PizzaRequest,System.Threading.CancellationToken)">
+            <summary>
+            Updates a specific pizza by ID.
+            </summary>
+            <param name="id">The pizza ID to update.</param>
+            <param name="pizza">The updated pizza details.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">Returns newly updated Pizza</response>
+            <response code="404">If the pizza is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.DeletePizza(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a specific pizza by ID.
+            </summary>
+            <param name="id">The pizza ID to delete.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">Returns nwely deleted pizza</response>
+            <response code="404">If the pizza is not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.AddRating(RestaurantManagement.Application.RequestModel.RankRequest,System.Threading.CancellationToken)">
+            <summary>
+            Adds a rating to a specific pizza.
+            </summary>
+            <param name="rate">The rating details.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A result indicating success or failure.</returns>
+             <response code="200">added the pizza's rating by id</response>
+            <response code="404">If the pizzaId or userId ais not valid</response>
+        </member>
+        <member name="M:RestaurantManagement.Controllers.PizzaController.GetPizzaRating(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the rating of a specific pizza.
+            </summary>
+            <param name="id">The pizza ID to retrieve the rating.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The rating of the specified pizza.</returns>
+             <response code="200">Returns the pizza  rating by id</response>
+            <response code="404">If the pizza is not valid</response>
+        </member>
+    </members>
+</doc>

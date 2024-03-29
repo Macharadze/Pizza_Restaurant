@@ -1,0 +1,204 @@
+2024-02-20 12:48:40.710 +04:00 Now listening on: https://localhost:7243
+2024-02-20 12:48:40.748 +04:00 Now listening on: http://localhost:5199
+2024-02-20 12:48:40.752 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-20 12:48:40.753 +04:00 Hosting environment: Development
+2024-02-20 12:48:40.753 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-20 12:48:47.798 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 20.02.2024 12:48:47
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-20 12:52:07.283 +04:00 Now listening on: https://localhost:7243
+2024-02-20 12:52:07.318 +04:00 Now listening on: http://localhost:5199
+2024-02-20 12:52:07.322 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-20 12:52:07.323 +04:00 Hosting environment: Development
+2024-02-20 12:52:07.323 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-20 12:52:11.892 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 20.02.2024 12:52:11
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-20 12:52:17.842 +04:00 An unhandled exception occurred
+2024-02-20 12:54:23.418 +04:00 Now listening on: https://localhost:7243
+2024-02-20 12:54:23.452 +04:00 Now listening on: http://localhost:5199
+2024-02-20 12:54:23.456 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-20 12:54:23.457 +04:00 Hosting environment: Development
+2024-02-20 12:54:23.457 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-20 12:54:33.203 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 20.02.2024 12:54:33
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-20 12:58:03.075 +04:00 Now listening on: https://localhost:7243
+2024-02-20 12:58:03.112 +04:00 Now listening on: http://localhost:5199
+2024-02-20 12:58:03.116 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-20 12:58:03.117 +04:00 Hosting environment: Development
+2024-02-20 12:58:03.118 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-20 12:58:06.759 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 20.02.2024 12:58:06
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-20 19:46:36.889 +04:00 Now listening on: https://localhost:7243
+2024-02-20 19:46:37.008 +04:00 Now listening on: http://localhost:5199
+2024-02-20 19:46:37.026 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-20 19:46:37.028 +04:00 Hosting environment: Development
+2024-02-20 19:46:37.029 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-20 23:20:05.248 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:39:01.619 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:40:28.147 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:41:01.632 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:42:35.849 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:44:39.583 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:47:13.384 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:50:24.781 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:54:15.992 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);

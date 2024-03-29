@@ -1,0 +1,127 @@
+2024-02-20 12:52:17.842 +04:00 An unhandled exception occurred
+2024-02-20 23:20:05.248 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:39:01.619 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:40:28.147 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:41:01.632 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:42:35.849 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:44:39.583 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:47:13.384 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:50:24.781 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-02-20 23:54:15.992 +04:00 Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderPizzaas] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrderId] uniqueidentifier NOT NULL,
+    [PizzaId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [AddresId] uniqueidentifier NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [ModifiedOn] datetime2 NULL,
+    CONSTRAINT [PK_OrderPizzaas] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderPizzaas_Addresss_AddresId] FOREIGN KEY ([AddresId]) REFERENCES [Addresss] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderPizzaas_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);

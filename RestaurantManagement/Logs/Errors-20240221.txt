@@ -1,0 +1,15 @@
+2024-02-21 12:55:02.972 +04:00 An error occurred using the connection to database 'PizzaRestaurant' on server '(LocalDb)\LocalDB'.
+2024-02-21 12:56:55.970 +04:00 An error occurred using the connection to database 'PizzaRestaurant' on server '(LocalDb)\LocalDB'.
+2024-02-21 12:57:02.561 +04:00 Connection id "0HN1INBUN0MVV", Request id "0HN1INBUN0MVV:0000000B": An unhandled exception was thrown by the application.
+2024-02-21 12:58:34.549 +04:00 Connection id "0HN1INBUN0MVV", Request id "0HN1INBUN0MVV:0000000D": An unhandled exception was thrown by the application.
+2024-02-21 13:13:25.923 +04:00 An error occurred using the connection to database 'PizzaRestaurant' on server '(LocalDb)\LocalDB'.
+2024-02-21 13:13:40.465 +04:00 Connection id "0HN1INLAKEPCM", Request id "0HN1INLAKEPCM:0000000D": An unhandled exception was thrown by the application.
+2024-02-21 13:14:38.366 +04:00 An error occurred using the connection to database 'PizzaRestaurant' on server '(LocalDb)\LocalDB'.
+2024-02-21 13:16:33.100 +04:00 An error occurred using the connection to database 'PizzaRestaurant' on server '(LocalDb)\LocalDB'.
+2024-02-21 13:54:10.651 +04:00 An unhandled exception occurred
+2024-02-21 13:56:26.058 +04:00 An unhandled exception occurred
+2024-02-21 15:46:58.357 +04:00 An unhandled exception occurred
+2024-02-21 15:49:16.281 +04:00 An unhandled exception occurred
+2024-02-21 15:50:40.328 +04:00 An unhandled exception occurred
+2024-02-21 15:50:51.637 +04:00 An unhandled exception occurred
+2024-02-21 15:51:18.124 +04:00 An unhandled exception occurred

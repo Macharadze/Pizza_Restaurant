@@ -1,0 +1,327 @@
+2024-02-23 10:51:11.832 +04:00 Now listening on: https://localhost:7243
+2024-02-23 10:51:11.914 +04:00 Now listening on: http://localhost:5199
+2024-02-23 10:51:11.923 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 10:51:11.925 +04:00 Hosting environment: Development
+2024-02-23 10:51:11.926 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 10:51:30.053 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:51:30
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:52:01.627 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:52:01
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:54:23.287 +04:00 Now listening on: https://localhost:7243
+2024-02-23 10:54:23.381 +04:00 Now listening on: http://localhost:5199
+2024-02-23 10:54:23.390 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 10:54:23.392 +04:00 Hosting environment: Development
+2024-02-23 10:54:23.393 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 10:54:41.431 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:54:41
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:54:58.767 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:54:58
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:55:51.234 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:55:51
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:56:05.141 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 2/23/2024 10:56:05 AM
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:57:11.034 +04:00 Now listening on: https://localhost:7243
+2024-02-23 10:57:11.134 +04:00 Now listening on: http://localhost:5199
+2024-02-23 10:57:11.147 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 10:57:11.149 +04:00 Hosting environment: Development
+2024-02-23 10:57:11.151 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 10:57:43.764 +04:00 Now listening on: https://localhost:7243
+2024-02-23 10:57:43.840 +04:00 Now listening on: http://localhost:5199
+2024-02-23 10:57:43.849 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 10:57:43.851 +04:00 Hosting environment: Development
+2024-02-23 10:57:43.853 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 10:57:55.596 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 2/23/2024 10:57:55 AM
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:58:21.054 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 2/23/2024 10:58:21 AM
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 10:58:26.368 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 10:58:26
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 11:01:16.386 +04:00 Now listening on: https://localhost:7243
+2024-02-23 11:01:16.463 +04:00 Now listening on: http://localhost:5199
+2024-02-23 11:01:16.473 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 11:01:16.474 +04:00 Hosting environment: Development
+2024-02-23 11:01:16.475 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 11:01:23.043 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 11:01:23
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 11:01:32.084 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 2/23/2024 11:01:32 AM
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 11:15:45.179 +04:00 Now listening on: https://localhost:7243
+2024-02-23 11:15:45.260 +04:00 Now listening on: http://localhost:5199
+2024-02-23 11:15:45.270 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 11:15:45.272 +04:00 Hosting environment: Development
+2024-02-23 11:15:45.273 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 11:15:55.429 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 11:15:55
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 15:12:01.185 +04:00 Now listening on: https://localhost:7243
+2024-02-23 15:12:01.272 +04:00 Now listening on: http://localhost:5199
+2024-02-23 15:12:01.282 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 15:12:01.283 +04:00 Hosting environment: Development
+2024-02-23 15:12:01.284 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 15:15:34.928 +04:00 Now listening on: https://localhost:7243
+2024-02-23 15:15:35.019 +04:00 Now listening on: http://localhost:5199
+2024-02-23 15:15:35.028 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 15:15:35.029 +04:00 Hosting environment: Development
+2024-02-23 15:15:35.030 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 15:15:49.547 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 15:15:49
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 15:54:55.245 +04:00 Now listening on: https://localhost:7243
+2024-02-23 15:54:55.323 +04:00 Now listening on: http://localhost:5199
+2024-02-23 15:54:55.331 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 15:54:55.334 +04:00 Hosting environment: Development
+2024-02-23 15:54:55.335 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:02:59.901 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:02:59.989 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:02:59.998 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:03:00.000 +04:00 Hosting environment: Development
+2024-02-23 17:03:00.001 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:03:08.438 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:03:08
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 17:04:04.170 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:04:04.272 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:04:04.282 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:04:04.284 +04:00 Hosting environment: Development
+2024-02-23 17:04:04.285 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:04:18.408 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:04:18
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 17:06:43.818 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:06:43.912 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:06:43.924 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:06:43.927 +04:00 Hosting environment: Development
+2024-02-23 17:06:43.928 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:07:16.923 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:07:17.003 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:07:17.013 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:07:17.016 +04:00 Hosting environment: Development
+2024-02-23 17:07:17.017 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:07:23.548 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:07:23
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 17:08:23.248 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:08:23.325 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:08:23.334 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:08:23.336 +04:00 Hosting environment: Development
+2024-02-23 17:08:23.337 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:08:33.870 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:08:33
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 17:18:06.262 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:18:06.339 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:18:06.348 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:18:06.350 +04:00 Hosting environment: Development
+2024-02-23 17:18:06.354 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:18:47.288 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:18:47
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+
+2024-02-23 17:27:23.730 +04:00 Now listening on: https://localhost:7243
+2024-02-23 17:27:23.828 +04:00 Now listening on: http://localhost:5199
+2024-02-23 17:27:23.837 +04:00 Application started. Press Ctrl+C to shut down.
+2024-02-23 17:27:23.839 +04:00 Hosting environment: Development
+2024-02-23 17:27:23.840 +04:00 Content root path: C:\Users\user\source\repos\GiorgiMatcharadze\Pizza_Application\RestaurantManagement\RestaurantManagement\
+2024-02-23 17:27:33.758 +04:00 
+ Request Info 
+IP = ::1
+Address = https
+IsSescured = True
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+QueryString = 
+Time = 23.02.2024 17:27:33
+
+ Response Info 
+StatusCode = 200
+Body = Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+

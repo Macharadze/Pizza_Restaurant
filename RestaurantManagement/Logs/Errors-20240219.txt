@@ -1,0 +1,4 @@
+2024-02-19 11:22:48.039 +04:00 An unhandled exception occurred
+2024-02-19 18:41:08.516 +04:00 An unhandled exception has occurred while executing the request.
+2024-02-19 18:41:50.638 +04:00 An unhandled exception has occurred while executing the request.
+2024-02-19 18:42:22.243 +04:00 An unhandled exception has occurred while executing the request.

@@ -1,0 +1,33 @@
+2024-03-18 14:26:31.868 +04:00 An unhandled exception has occurred while executing the request.
+2024-03-18 14:26:32.127 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:26:37.841 +04:00 An unhandled exception has occurred while executing the request.
+2024-03-18 14:26:42.607 +04:00 An unhandled exception has occurred while executing the request.
+2024-03-18 14:26:42.613 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:27:07.284 +04:00 An unhandled exception has occurred while executing the request.
+2024-03-18 14:29:03.214 +04:00 Health check SQL Server with status "Unhealthy" completed after 14989.4034ms with message 'null'
+2024-03-18 14:29:03.214 +04:00 Health check SQL Server with status "Unhealthy" completed after 10384.0238ms with message 'null'
+2024-03-18 14:29:03.325 +04:00 Health check SQL Server with status "Unhealthy" completed after 2.6827ms with message 'null'
+2024-03-18 14:35:35.442 +04:00 Health check base URL with status "Unhealthy" completed after 4106.3442ms with message 'null'
+2024-03-18 14:35:35.593 +04:00 An unhandled exception occurred
+2024-03-18 14:35:35.710 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:35:50.069 +04:00 Health check base URL with status "Unhealthy" completed after 4083.7753ms with message 'null'
+2024-03-18 14:35:50.169 +04:00 An unhandled exception occurred
+2024-03-18 14:35:50.175 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:36:08.329 +04:00 An unhandled exception occurred
+2024-03-18 14:36:08.440 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:36:13.287 +04:00 An unhandled exception occurred
+2024-03-18 14:36:14.207 +04:00 An unhandled exception occurred
+2024-03-18 14:36:18.806 +04:00 An unhandled exception occurred
+2024-03-18 14:36:18.812 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:36:28.943 +04:00 An unhandled exception occurred
+2024-03-18 14:36:28.949 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:38:18.495 +04:00 An unhandled exception occurred
+2024-03-18 14:38:18.648 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:38:25.875 +04:00 An unhandled exception occurred
+2024-03-18 14:38:26.310 +04:00 An unhandled exception occurred
+2024-03-18 14:38:29.083 +04:00 An unhandled exception occurred
+2024-03-18 14:38:29.089 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:38:55.139 +04:00 An unhandled exception occurred
+2024-03-18 14:38:55.253 +04:00 GetHealthReport threw an exception when trying to get report from /api/health configured with name feedback api.
+2024-03-18 14:38:58.246 +04:00 An unhandled exception occurred
+2024-03-18 14:38:58.798 +04:00 An unhandled exception occurred
